@@ -20,7 +20,7 @@ public class LoadDatabase {
   CommandLineRunner initDatabase(PlayerRepository repository) {
 
     return args -> {
-      log.info("Preloading " + repository.save(new Player("123", "Tim C. Doornek", "C", LocalDate.of(1994, 6, 1), "TR")));
+      log.info("Preloading " + repository.save(new Player("123", "Tim D. Doornek", "C", LocalDate.of(1994, 6, 1), "TR")));
     log.info("We out here");
     };
   }
